@@ -38,7 +38,7 @@ header p {
   justify-content: center;
   align-items: center;
   gap: 25px;
-  margin-top: 50px;
+  margin: 50px auto 0;
   padding: 20px 50px;
 }
 .cards .card {
@@ -96,9 +96,10 @@ header p {
   border-top: 4px solid hsl(34, 97%, 64%);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1310px) {
   .cards {
     flex-direction: column;
+    padding: 20px;
   }
 }
 @media (max-width: 768px) {

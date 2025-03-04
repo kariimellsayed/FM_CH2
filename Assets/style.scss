@@ -52,7 +52,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 25px;
-  margin-top: 50px;
+  margin: 50px auto 0;
   padding: 20px 50px;
 
   .card {
@@ -111,9 +111,10 @@ header {
 }
 
 // Responsive Design
-@media (max-width: 992px) {
+@media (max-width: 1310px) {
   .cards {
     flex-direction: column;
+    padding: 20px;
   }
 }
 
